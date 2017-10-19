@@ -1,0 +1,27 @@
+h1 {
+	font-size:35px;
+	font-family: "roboto";
+}
+
+.custom {
+	font-family:"roboto";
+	margin-bottom: 20px;
+}
+
+.question {
+	padding-top:20px;
+	
+	margin-bottom: 20px;
+	font-family:"roboto";
+}
+
+.checky {
+	font-family:"roboto";
+	margin-bottom:8px;
+
+}
+
+.select {
+	font-family:"roboto";
+	font-size: 15px;
+}
