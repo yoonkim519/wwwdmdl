@@ -1,0 +1,43 @@
+<html>
+    <head>
+    	<script src="timeout.js"></script>
+
+    	<link rel="stylesheet" type="text/css" href="timeout.css">
+    	
+    </head>
+    <body id="screen" onload="setup();" >
+
+    	<div id="box">
+    		<div id="innerbox1" class="container">
+    			<span class="front"> To </span> 
+	    			<input placeholder="Type in recipient's email " id="username" type="text">
+	    			
+    		</div>	
+
+    		<div id="innerbox2" class="container">
+    		
+	    			<input placeholder="Subject" id="subject" type="text">
+	    			
+    		</div>	
+
+    		<div id="innerbox3" class="container">
+
+	    			<textarea rows="5" id="saySomething">Say something....</textarea>
+
+    		</div>	
+
+    		<button id="send" onclick="sendItInTheFuture();">
+    			Send
+
+    		</button>	
+
+    		<div id="timerGoesHere" class="container"> </id>
+            <div class="redbox"></div>
+    		
+    	</div>
+    		
+
+
+
+    </body>	
+</html>

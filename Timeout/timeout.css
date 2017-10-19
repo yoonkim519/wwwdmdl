@@ -1,0 +1,67 @@
+body {
+	background-color : #42f4b0;
+
+}
+
+textarea {
+    width: 100px;
+}
+
+#box{
+	background-color: white;
+	margin: 0 auto;
+	margin-top: 75px;
+	width : 500px;
+	padding: 20px;
+	border-radius: 25px;
+}
+
+.front {
+	font-family: "helvetica";
+	color: #acadaf;
+	padding: 15px 50px 15px 15px; 
+}
+
+.container {
+	padding: 10px; 
+}
+
+#username {
+	padding: 10px 10px;
+	font-family: "helvetica";
+	font-size: 15px;
+}
+
+#subject {
+	font-size: 15px;
+	margin-left: 85px;
+}
+
+#saySomething {
+	font-size: 15px;
+	margin-left: 85px;
+	width:300px;
+}
+
+
+
+#send{
+	margin-left: 95px;
+	font-family:"helvetica";
+	font-size: 15px;
+}
+/*
+.redbox{
+	background-color: red;
+	width: 50px;
+	height: 50px;
+	-webkit-transition: width 2s, height 2s;  For Safari 3.1 to 6.0 
+    transition: width 2s, height 2s;
+    position: fixed;
+}
+
+.redbox:hover {
+    width: 300px;
+    height: 300px;
+}*/
+
