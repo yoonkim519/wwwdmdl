@@ -1,0 +1,38 @@
+ul{
+	margin: 0 auto;
+}
+
+li {
+	padding: 16px;
+	list-style-type: none;
+}
+
+h1 {
+	text-align:center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-family: "Avenir";
+}
+
+#parent {
+	margin: 0 auto;
+	width: 80%;
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.child {
+	width: 100%;
+	box-shadow: 0px 0px 50px -9px #888888;
+	margin-bottom: 60px;
+
+}
+
+@media only screen and (min-width: 480px){
+	.child{
+		width:45%;
+	}
+
+	li{
+		float: left;
+	}
