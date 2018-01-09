@@ -1,0 +1,139 @@
+ @media only screen and (max-width : 500px) {
+ 	h1{
+    		font-size: 20em;
+    	}
+
+    }
+
+    ul{
+          padding: 100px;
+    }
+    
+
+    /* Extra Small Devices, Phones */ 
+    @media only screen and (min-width : 480px) {
+
+    	
+    }
+
+    /* Small Devices, Tablets */
+    @media only screen and (min-width : 768px) {
+
+    }
+
+    /* Medium Devices, Desktops */
+    @media only screen and (min-width : 992px) {
+
+    }
+
+    /* Large Devices, Wide Screens */
+    @media only screen and (min-width : 1200px) {
+    
+
+    }
+
+
+* {
+	box-sizing: border-box;
+}
+
+#menu{
+	position: fixed;
+	z-index: 99;
+}
+
+
+#logo {
+	top:0
+	bottom:0;
+	margin-right: 40px;
+}
+#menu { 
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 50px;
+	padding-right: 0.8em;
+	background-color: 536CFE;
+	margin-top: 0em;
+	width:100%;
+	
+}
+
+li{
+	font-family: "Lato";
+	list-style:none;
+	font-size: 1em;
+	display: inline-block;
+	padding: 10px;
+	color: white;
+}
+
+p{
+	font-family: "Lato";
+}
+
+li a {
+	text-decoration: none;
+	color: white;
+}
+
+
+
+h1{ 
+	width: 80%;
+	color:414040;
+	font-size: 2.7em;
+	font-family: "Lato", sans-serif;
+
+}
+
+p{
+	color:414040;
+}
+
+.des{
+	margin-top:90px;
+	margin-left:90px;
+}
+
+.phone_image {
+	margin-left: 700px;
+	margin-bottom: 100px;
+	position: absolute;
+	vertical-align: middle;
+}
+
+
+.wrapper{
+	display:grid;
+	grid-template-columns: 60% 40%;
+}
+
+.wrappercenter{
+
+}
+
+.maintext{
+	margin: auto;
+    width: 60%;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.buttons{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	
+}
+
+.social{
+	width: 200px;
+	margin: 20px;
+}
+
+
+
+
+
